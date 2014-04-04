@@ -34,7 +34,7 @@ def hello(name=None):
     import socket
     ip = socket.gethostbyname(socket.gethostname())
 
-    return render_template('voice5.html', ip="94.255.149.252")
+    return render_template('voice5.html', ip="hereIsYourIP")
 
 @sockets.route('/echo') #web socket will call ECHO
 def echo_socket(ws):
