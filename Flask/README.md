@@ -22,4 +22,4 @@ if (you got error like: python.h missing){
 else {
 
 Install Flask Socket:
--> sudo pip install Flaks-Socket
+-> sudo pip install Flaks-Socket 
